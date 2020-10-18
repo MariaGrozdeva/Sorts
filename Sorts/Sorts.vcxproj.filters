@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Sorts.cpp">
+    <ClCompile Include="ComparisonSorts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NonComparisonSorts.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
