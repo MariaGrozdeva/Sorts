@@ -10,7 +10,7 @@ struct Student
 };
 
 // 1. Counting sort (Complexity - 0(n+m))
-void CountSortForGrades(Student* arr, int len)
+void CountingSortForGrades(Student* arr, int len)
 {
 	const int range = 5;
 	int enumerativeArray[range] = { 0 };
@@ -38,7 +38,7 @@ int main()
 {
 	Student arr[] = { { "Petur", 4 }, { "Ivan", 6 }, { "Paul", 4 }, { "Vladimir", 5 }, { "Petq", 5 } };
 
-	CountSortForGrades(arr, 5);
+	CountingSortForGrades(arr, 5);
 
 	for (int i = 0; i < 5; i++)
 		cout << "Name: " << arr[i].name << ", grade: " << arr[i].grade << endl;
