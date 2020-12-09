@@ -1,5 +1,3 @@
-# Implementation of different sorts and their time complexity.
-
 ## Comparison sorts
 **1.** Bubble sort  
 **2.** Cocktail shaker sort  
