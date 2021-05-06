@@ -9,3 +9,4 @@
 
 ## Non-comparison sorting algorithms
 **1.** Counting sort  
+**2.** Radix sort
