@@ -9,7 +9,7 @@ struct Student
 	int grade;
 };
 
-// 1. Counting sort (Complexity - 0(n+m)) // n - size of the array(len), m - restriction for the array's elemenents (arr[i] = 1,2,..,m)
+// 1. Counting sort (Complexity - 0(n+m)) // n - size of the array(len), m - restriction for the array's elements (arr[i] = 1,2,..,m)
 void CountingSortForGrades(Student* arr, int len)
 {
 	const int range = 5;
