@@ -46,4 +46,9 @@ void MergeSort(T* arr, int len)
 
 int main()
 {
+	int arr[8] = { 170, 45, 75, 90, 802, 24, 2, 66 };
+	MergeSort(arr, 8);
+
+	for (int i = 0; i < 8; i++)
+		cout << arr[i] << " ";
 }
