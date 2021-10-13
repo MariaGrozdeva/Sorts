@@ -1,6 +1,14 @@
 #include <iostream>
 using namespace std;
 
+template<typename T>
+void Swap(T* arr, int x, int y)
+{
+	T temp = arr[x];
+	arr[x] = arr[y];
+	arr[y] = temp;
+}
+
 //7.0. Partition function - puts the pivot on the right position and returns its index
 template <typename T>
 int Partition(T* arr, int len)
